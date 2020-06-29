@@ -1,3 +1,314 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
+/* kategori */
+.btn-katagori{
+    margin: 4px 2px;
+    width: 177px;
+    
+
+  }
+.btn {
+
+  /* color: #C4007C;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+  opacity: 1;
+  width: 177px;
+  height: 48px;
+  border: 2px solid #C4007C33;
+  opacity: 1;
+  padding: 0px 32px;
+  text-align: left; */
+left: 50px;
+width: 167px;
+height: 40px;
+border: 2px solid #C4007C33;
+border-radius: 10px;
+opacity: 1;
+text-align: left;
+font: Medium 24px SF Pro Display;
+font-family: sans-serif;
+font-size: medium 24px;
+letter-spacing: 0px;
+color: #C4007C;
+opacity: 0.6;
+margin-top: 8px;
+
+}
+
+ /* Darker background on mouse-over */
+.btn:hover {
+  background-color: #C4007C1F;
+  border: 1px solid #C4007C;
+}
+.btn:active {
+background: #C4007C1F 0% 0% no-repeat padding-box;
+border: 2px solid #C4007C;
+color: with;
+
+}
+.btn-katagori .hmm{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    float: right;
+    display: flex;
+}
+.hmm .hi{
+    color: #C4007C;
+    margin-right: 12px;
+    display: flex;
+    margin-top: -3px;
+    position: relative;
+    line-height: 32px;
+}
+.btn .iconku1{
+  margin-left: 45px;
+}
+.btn .iconku2{
+  margin-left: 23px;
+}
+.btn .iconku3{
+  margin-left: 21px;
+}
+.btn .iconku4{
+  margin-left: 18px;
+}
+.btn .iconku5{
+  margin-left: 13px;
+}
+.iconku .iconify{
+    color: #C4007C;
+    margin-top: -8px;
+    text-align: right;
+}
+
+.kategori{
+    margin: 30px auto;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+  }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.card-kategori{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+}
+.card-kategori .card .card-img{
+    background-color: black;
+    opacity: 90%; 
+    border-radius: 10px !important; 
+    height: 230px !important;
+}
+.card-kategori .card .card-title{
+    vertical-align: middle !important;
+}
+
+/* end kategori */
+
+
+/* etalase */
+
+.header-etalse{
+    margin: 20px auto;
+    border-top: 1px solid #ddd;
+}
+.jdletalase{
+    margin-top: 30px;
+    align-self: center;
+} 
+
+.btnhd{
+    display: flex;
+    float: right;
+    margin-top: 30px;
+}
+.btnhd a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #C4007C;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+}
+.btnhd a p{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.sortbtn{
+    width: 135px;
+    height: 45px;
+    background-color: #C4007C2E;
+    color: #C4007C;
+    margin-right: 10px;
+    display: flex;
+}
+.sortbtn .iconify{
+    width: 30px; 
+    height: 30px; 
+    color: #C4007C;
+}
+.filter{
+    width: 125px;
+    height: 45px;
+    background-color: #C4007C2E;
+    color: #C4007C;
+    display: flex;
+    margin-right: 7px;
+}
+.filter .iconify{
+    width: 30px; 
+    height: 30px; 
+    color: #C4007C;}
+
+.card{
+    margin-bottom: 5px;
+}
+.produk a{
+    text-decoration: none;
+}
+.card img{
+    border-radius: 5px;
+    height: 190px !important;
+}
+.card-body{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.card-body h6{
+    color: black;
+    font-family: 'SF Pro Display';
+}
+.card-body h5{
+    color: #C4007C;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+}
+.card-body p{
+    color: black;
+    opacity: 47%;
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+}
+.card-text.ready{
+    color: #C4007C;
+}
+.iconify.ready{
+    color: #C4007C;
+}
+.ngelink a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    float: right;
+    display: flex;
+}
+.ngelink a p{
+    color: #C4007C;
+    margin-top: 3px;
+    margin-right: -8px;
+}
+.ngelink a .iconify{
+    color: #C4007C;
+}
+
+/* endetalase */
+
+/* banner bawah */
+.banner-bawah{
+    margin: 40px auto;
+}
+/* end banner bawah */
+
+/* footer */
+.foter{
+    margin: 0px;
+    background-color: #F6F6F8;
+}
+.footer-logo{
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+.footer-logo img{
+    height: 30px;
+    width: 120px;
+    margin: 15px;
+}
+ul{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+ul.akhir{
+    margin-right: 50px;
+}
+ul li{
+    margin-top: 5px;
+    list-style: none;
+}
+.foter ul li a{
+    text-decoration: none;
+    color: #0000008a;
+    opacity: 80%;
+    font-family: 'SF Pro Display';
+}
+.foter ul li a:hover{
+    color: #C4007C;
+}
+ul li h5{
+    color: #0000008a;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+}
+ul li p.a{
+    color: #0000008c;
+    opacity: 77%;
+    font-family: 'SF Pro Display';
+}
+ul li h5.b{
+    margin-top: 35px;
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+}
+ul li p{
+    color: #C4007C;
+    font-family: 'SF Pro Display';
+}
+ul li p.akhir{
+    color: #C4007C;
+    opacity: 58%;
+    margin-top: 20px;
+    font-family: 'SF Pro Display';
+}
+.iconify { 
+    width: 40px; 
+    height: 40px; 
+    color: #000000;
+}
+/* endfooter */
