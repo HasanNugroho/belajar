@@ -92,7 +92,7 @@ color: with;
     margin: 30px auto;
 }
 .swiper-container {
-    width: 100%;
+    width: 100px;
     height: 100%;
 
   }
@@ -119,6 +119,25 @@ color: with;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     position: relative;
+    margin: 20px;
+    overflow: hidden;
+    
+}
+.card-kategori .img-kategori{
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    max-width:100wv;
+    height: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.card-kategori .tulisan-kategori{
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+    color: #fff;
 }
 .card-kategori .card .card-img{
     background-color: black;
